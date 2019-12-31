@@ -1,0 +1,225 @@
+html,
+body {
+  font-family: "Libre Caslon Text", serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.page-title {
+  font-size: 46px;
+  font-family: Lobster, cursive;
+  font-weight: 700;
+  text-align: center;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(green),
+    color-stop(yellow),
+    to(red)
+  );
+  background-image: -o-linear-gradient(green, yellow, red);
+  background-image: linear-gradient(green, yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.table-title {
+  font-size: 26px;
+  font-family: Lobster, cursive;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 50px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(green),
+    to(red)
+  );
+  background-image: -o-linear-gradient(green, red);
+  background-image: linear-gradient(green, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* footer */
+.page-footer {
+  font-family: "Libre Caslon Text", serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 7600px;
+  width: 100%;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.container {
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.pokemon-info {
+  margin-top: 40px;
+}
+
+ul {
+  font-size: 20px;
+  font-family: Libre Caslon Text;
+  font-weight: 700;
+  text-align: center;
+  position: absolute;
+  width: 95%;
+  margin: 10px auto 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+li {
+  font-size: 20px;
+  font-family: Libre Caslon Text;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+button {
+  background: #ffffcc;
+  color: #000;
+  margin-bottom: 5px;
+  width: 240px;
+  height: 50px;
+  border: 2px solid;
+  font-size: 15px;
+  border-radius: 4px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#modal-container {
+  display: none;
+}
+
+#modal-container.is-visible {
+  position: fixed;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #e8fcf1;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+.modal-close {
+  margin-bottom: 0px;
+  width: 100px;
+  float: right;
+  -webkit-appearance: none;
+  border: 0;
+  background: none;
+  color: #b32d00;
+  text-decoration: underline;
+}
+
+.modal {
+  margin: auto;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #ffff99;
+  padding: 40px;
+  width: 50%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 700px;
+  border: 2px solid black;
+}
+
+.modal p {
+  margin-bottom: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.modal h3 {
+  margin-top: 5px;
+  color: black;
+  background-color: #99ff99;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Libre Caslon Text;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  border: 2px solid green;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px green;
+  box-shadow: 2px 2px green;
+  padding-left: 60px;
+}

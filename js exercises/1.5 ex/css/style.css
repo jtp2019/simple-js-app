@@ -1,0 +1,53 @@
+body {
+    font-family: "Libre Caslon Text", serif;
+    line-height: 1.6;
+}
+
+h1 {
+   font-size: 24px;
+   font-weight: 700;
+}
+h2 {
+   font-size: 20px;
+   font-weight: 700;
+   color:red;
+}
+h3 {
+   font-size: 18px;
+   font-weight: 700;
+}
+h4 {
+   font-size: 16px;
+   font-weight: 700;
+   color:blue;
+}
+h6 {
+   font-size: 10px;
+   font-weight: 700;
+}
+
+.page-title {
+      font-size: 46px;
+      font-family: Lobster, cursive;
+      font-weight: 700;
+      text-align: center;
+      background-image: linear-gradient(green, yellow, red);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+  /* footer */
+.page-footer {
+    font-family: "Libre Caslon Text", serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 350px;
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+}

@@ -1,0 +1,94 @@
+html, body  {
+    font-family: "Libre Caslon Text", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 10px;
+    font-weight: 700;
+}
+.page-title {
+    font-size: 46px;
+    font-family: Lobster, cursive;
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(green, yellow, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    width: 100%;
+}
+
+.table-title {
+    font-size: 26px;
+    font-family: Libre Caslon Text;
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(indigo, blue, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* footer */
+.page-footer {
+    font-family: "Libre Caslon Text", serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 350px;
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+
+ul {
+  font-size: 20px;
+  font-family: Libre Caslon Text;
+  font-weight: 700;
+
+}
+
+li {
+  
+
+}
+
+
+.pokemon-name {
+
+}
+
+button:hover, button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
